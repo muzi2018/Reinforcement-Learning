@@ -25,9 +25,8 @@ Run PPO on a selected environment (e.g., CartPole):
 ```bash
 git clone git@github.com:muzi2018/Reinforcement-Learning.git
 cd Reinforcement-Learning
-conda create -n rl_env python=3.11
+conda env create -f environment.yml
 conda activate rl_env
-pip install -r requirements.txtcd algorithms/ppo
 python main.py
 ```
 
