@@ -1,0 +1,3 @@
+- env.param=10
+- agent.lr=0.005
+- agent.run_name=experiment1

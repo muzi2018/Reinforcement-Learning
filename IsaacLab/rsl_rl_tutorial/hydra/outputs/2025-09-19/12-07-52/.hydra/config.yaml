@@ -1,0 +1,11 @@
+env:
+  param: 10
+  num_envs: 1
+  seed: 0
+agent:
+  lr: 0.005
+  max_iterations: 100
+  clip_actions: true
+  run_name: experiment1
+  seed: 0
+  device: cpu

@@ -1,0 +1,7 @@
+﻿# Dummy agent configuration
+lr: 0.01             # learning rate
+max_iterations: 1000 # maximum training iterations
+clip_actions: true   # whether to clip actions
+run_name: "test_run" # optional run name for logging
+seed: 42             # random seed
+device: "cuda:0"     # device for training (CPU or GPU)
