@@ -236,7 +236,6 @@ def run_ppo():
                 optimizer,
                 DISCOUNT_FACTOR)
         policy_loss, value_loss = update_policy(
-                agent,
                 states,
                 actions,
                 actions_log_probability,
