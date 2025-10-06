@@ -10,6 +10,9 @@ Currently includes  **PPO** , with more algorithms coming soon.
 
 # 📦 Implemented Algorithms
 
+* [X] **Bellman_equation**
+  * [X] Closed_form
+  * [X] Iterative
 * [X] **Proximal Policy Optimization (PPO)**
 * [ ] Deep Q-Learning (DQN)
 * [ ] Advantage Actor-Critic (A2C)
