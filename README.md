@@ -10,12 +10,15 @@ Currently includes  **PPO** , with more algorithms coming soon.
 
 # 📦 Implemented Algorithms
 
-* [X] **Action_value**
+* [X] **Action_value_calculation**
   * [X] **Bellman_matrix**
   * [X] **Monte_Carlo**
-* [X] **State_value**
+* [X] **State_value_calculation**
   * [X] **Bellman_analytical**
   * [X] **Bellman_iteration**
+* [X] **BOE**
+  * [X] **Value_iteration**
+  * [X] **Policy_iteration**
 * [X] **Proximal Policy Optimization (PPO)**
 * [ ] Deep Q-Learning (DQN)
 * [ ] Advantage Actor-Critic (A2C)
