@@ -10,19 +10,28 @@ Currently includes  **PPO** , with more algorithms coming soon.
 
 # 📦 Implemented Algorithms
 
-* [X] **Action_value_calculation**
-  * [X] **Bellman_matrix**
-  * [X] **Monte_Carlo**
-* [X] **State_value_calculation**
-  * [X] **Bellman_analytical**
-  * [X] **Bellman_iteration**
-* [X] **BOE(Analytic)**
-  * [X] **Value_iteration**
-  * [X] **Policy_iteration**
-* [X] **Monte Carlo(Sample)**
-* [X] **Robbin-Monro**
-* [X] **SGD**
-* [X] **TD**
+* [X] **1_Value_calculation**
+
+  * [X] **Action_value_calculation**
+    * [X] **Bellman_matrix**
+    * [X] **Monte_Carlo**
+  * [X] **State_value_calculation**
+    * [X] **Bellman_analytical**
+    * [X] **Bellman_iteration**
+* [X] **2_Value_based**
+
+  * [X] **BOE(Analytic)**
+
+    * [X] **Value_iteration**
+    * [X] **Policy_iteration**
+  * [X] **TD**
+
+    * [X] **Robbins-Monro(理论基础)**
+    * [X] **DQN(TD算法在函数近似上的实现)**
+    * [X] **TD_SARSA_1step_action_value.py**
+    * [X] **TD_SARSA_1step_state_value.py**
+    * [X] **TD_SARSA_nstep.py**
+    * [X] **td0_linear_approx.py**
 * [X] **Proximal Policy Optimization (PPO)**
 * [ ] Deep Q-Learning (DQN)
 * [ ] Advantage Actor-Critic (A2C)
