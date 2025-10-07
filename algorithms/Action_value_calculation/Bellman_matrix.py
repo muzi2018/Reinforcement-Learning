@@ -1,6 +1,7 @@
 ﻿import sys
 import os
-from grid_world import GridWorld
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+from utils.grid_world import GridWorld
 import random
 import numpy as np
 import random

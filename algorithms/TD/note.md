@@ -4,3 +4,11 @@
 | 是否需要模型 | 不需要              | 不需要（model-free）   |
 | 收敛速度     | 稳定，但慢          | 可能更快，收敛逐步逼近 |
 | 样本利用     | 每条路径只用一次    | 每一步都能利用样本     |
+
+离散环境下的action，state，SARSA算法的TD实现
+TD_action_values.py
+TD_SARSA_nstep.py
+TD_state_values.py
+
+参数化函数
+td0_linear_approx.py

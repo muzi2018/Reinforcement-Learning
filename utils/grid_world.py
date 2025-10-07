@@ -33,8 +33,10 @@ class GridWorld():
         self.color_trajectory = (0, 1, 0)
         self.color_agent = (0,0,1)
 
-
-
+        self.rows, self.cols = self.env_size
+        self.states = [(i, j) for i in range(self.rows) for j in range(self.cols)]
+        self.state_index = {s: idx for idx, s in enumerate(self.states)}
+        
     def reset(self):
         self.agent_state = self.start_state
         self.traj = [self.agent_state] 
