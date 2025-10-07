@@ -20,8 +20,9 @@ Currently includes  **PPO** , with more algorithms coming soon.
   * [X] **Value_iteration**
   * [X] **Policy_iteration**
 * [X] **Monte Carlo(Sample)**
+* [X] **Robbin-Monro**
 * [X] **SGD**
-* [ ] TD
+* [X] **TD**
 * [X] **Proximal Policy Optimization (PPO)**
 * [ ] Deep Q-Learning (DQN)
 * [ ] Advantage Actor-Critic (A2C)
