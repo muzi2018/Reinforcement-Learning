@@ -32,6 +32,7 @@ Currently includes  **PPO** , with more algorithms coming soon.
     * [X] **TD_SARSA_1step_state_value.py**
     * [X] **TD_SARSA_nstep.py**
     * [X] **td0_linear_approx.py**
+* [X] **3_Policy_based**
 * [X] **Proximal Policy Optimization (PPO)**
 * [ ] Deep Q-Learning (DQN)
 * [ ] Advantage Actor-Critic (A2C)
